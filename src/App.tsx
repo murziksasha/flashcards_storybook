@@ -1,3 +1,10 @@
+import { Button } from "./stories/Button";
+
+
 export function App() {
-  return <div>Hello</div>
+  return (
+    <div>
+      <Button primary label="button" />
+    </div>
+  )
 }
