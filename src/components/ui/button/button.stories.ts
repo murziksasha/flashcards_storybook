@@ -46,7 +46,6 @@ export const AsLink: Story = {
   args: {
     variant: 'primary',
     children: 'Link that looks like a button',
-    //@ts-ignore
     as: 'a',
   },
 }
